@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputBox testing Matches the snapshot 1`] = `
+<input
+  className="widget-header-input"
+  data-testid="input-field"
+  name="text"
+  placeholder="Todo..."
+/>
+`;

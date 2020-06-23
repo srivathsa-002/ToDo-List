@@ -1,0 +1,62 @@
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.button-container {
+    /* background: #464b5e; */
+    background: #f3f3f3;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1.2rem 3.2rem;
+    height: 100vh;
+    /* border-bottom: 1px solid grey; */
+}
+
+.three-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.remove-complete-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+
+.toggle-all {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+}
+
+.hoverable1, .hoverable2, .hoverable3{
+    padding: 1.2rem;
+}
+
+.hoverable1:hover, .hoverable1:active{
+    background: white;
+    border-radius: 7px ;
+    cursor: pointer;
+    padding: 1.2rem;
+}
+.hoverable2:hover, .hoverable2:active{
+    background: white;
+    border-radius: 7px ;
+    cursor: pointer;
+    padding: 1.2rem;
+}
+.hoverable3:hover, .hoverable3:active{
+    background: white;
+    border-radius: 7px ;
+    cursor: pointer;
+    padding: 1.2rem;
+}

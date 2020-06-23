@@ -1,0 +1,11 @@
+.all-buttons {
+    background: darkgreen;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    padding: 1.2rem;
+}
+
+button:hover,button:active {
+    border: 1px solid black;
+}

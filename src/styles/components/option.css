@@ -1,0 +1,30 @@
+.option {
+    background: rgb(255, 253, 253);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 1.6rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px grey;
+    border: 1px solid grey;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.option-text {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+
+.option-materials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    flex-grow: "1";
+    border-radius: "5px";
+    margin-right: "1.2rem";
+}

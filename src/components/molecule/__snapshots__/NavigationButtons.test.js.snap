@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationButtons testing Matches the snapshot 1`] = `
+<div
+  className="button-container"
+  data-testid="navigationButtons"
+>
+  <div
+    className="three-buttons"
+  >
+    <div
+      className="hoverable1"
+      val="All"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root"
+        data-testid="all"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"
+        />
+      </svg>
+       
+      All
+    </div>
+    <hr />
+    <div
+      className="hoverable2"
+      val="Active"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root"
+        data-testid="active"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M20.5 6c-2.61.7-5.67 1-8.5 1s-5.89-.3-8.5-1L3 8c1.86.5 4 .83 6 1v13h2v-6h2v6h2V9c2-.17 4.14-.5 6-1l-.5-2zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+        />
+      </svg>
+      <span
+        className="MuiBadge-root"
+      >
+         
+        Active
+        <span
+          className="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorPrimary MuiBadge-invisible"
+        />
+      </span>
+    </div>
+    <hr />
+    <div
+      className="hoverable3"
+      val="Complete"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root"
+        data-testid="complete"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M14 10H2v2h12v-2zm0-4H2v2h12V6zM2 16h8v-2H2v2zm19.5-4.5L23 13l-6.99 7-4.51-4.5L13 14l3.01 3 5.49-5.5z"
+        />
+      </svg>
+       
+      Completed
+    </div>
+  </div>
+</div>
+`;

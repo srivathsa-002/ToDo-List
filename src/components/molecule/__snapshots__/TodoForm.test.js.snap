@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoForm testing Matches the snapshot 1`] = `
+<form
+  className="widget-header"
+  data-testid="form"
+  onSubmit={[Function]}
+>
+  <input
+    className="widget-header-input"
+    data-testid="input-field"
+    name="text"
+    onChange={[Function]}
+    placeholder="Todo..."
+    value=""
+  />
+  <div
+    className="Grid-container"
+    onClick={[Function]}
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          data-testid="addTask"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+           
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item"
+        style={
+          Object {
+            "paddingLeft": "5px",
+            "paddingTop": "1px",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "paddingLeft": "5px",
+            }
+          }
+        >
+          Add task
+        </span>
+      </div>
+    </div>
+  </div>
+</form>
+`;
